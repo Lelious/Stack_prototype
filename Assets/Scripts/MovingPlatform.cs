@@ -177,12 +177,12 @@ public class MovingPlatform : MonoBehaviour
                 break;
 
         }
-        if (transform.position.z >= 3f || transform.position.x >= 3f)
+        if (transform.position.z >= 2f || transform.position.x >= 2f)
         {
             _speed = _speed * -1;
         }
 
-        if (transform.position.z <= -3f || transform.position.x <= -3f)
+        if (transform.position.z <= -2f || transform.position.x <= -2f)
         {
             _speed = _speed * -1;
         }
